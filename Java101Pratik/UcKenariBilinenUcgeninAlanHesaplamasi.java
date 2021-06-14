@@ -15,6 +15,6 @@ public class UcKenariBilinenUcgeninAlanHesaplamasi {
         u = (a+b+c)/2;
         alanKare = u * (u-a) * (u-b) * (u-c);
         alan = Math.sqrt(alanKare);
-        System.out.println("Üçgenin alanı " + alan + "'dır");
+        System.out.println("Üçgenin alanı: " + alan);
     }
 }
