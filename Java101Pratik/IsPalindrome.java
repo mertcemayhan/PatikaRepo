@@ -1,13 +1,8 @@
 package Java101Pratik;
 
-import java.util.Scanner;
-
 public class IsPalindrome {
     static boolean isPalindrome(int number) {
         int reverseNumber = 0;
-        Scanner input = new Scanner(System.in);
-        System.out.print("Palindrom olup olmadığı kontrol edilecek sayıyı giriniz: ");
-        number = input.nextInt();
         int temp = number;
 
         while (temp != 0) {
@@ -19,7 +14,8 @@ public class IsPalindrome {
         return number == reverseNumber;
 
     }
+
     public static void main(String[] args) {
-        System.out.println(isPalindrome(101));
+        System.out.println(isPalindrome(985));
     }
 }
