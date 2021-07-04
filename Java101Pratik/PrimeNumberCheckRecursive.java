@@ -22,8 +22,12 @@ public class PrimeNumberCheckRecursive {
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı Giriniz : ");
         number = input.nextInt();
-        System.out.println(primeNumber(number, 2));
 
+        if (primeNumber(number, 2)) {
+            System.out.println(number + " sayısı ASALDIR !");
+        } else {
+            System.out.println(number + " sayısı ASAL değildir !");
+        }
     }
 }
 
